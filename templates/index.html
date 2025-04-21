@@ -1,29 +1,49 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BaiMuras</title>
-  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/css/style.css" />
 </head>
 <body>
+
   <header>
-    <h1>BaiMuras — Интеллектуальная мебель</h1>
-    <nav>
-      <a href="#">Главная</a>
-      <a href="#">О нас</a>
-      <a href="#">Услуги</a>
-      <a href="#">Каталог</a>
-      <a href="#">Контакты</a>
-    </nav>
+    <h1>BaiMuras</h1>
+    <div class="language-switcher">
+      <button onclick="switchLang('ru')">РУС</button>
+      <button onclick="switchLang('kg')">КР</button>
+    </div>
   </header>
-  <main>
-    <h2>Добро пожаловать!</h2>
-    <p>Современные решения для вашего пространства.</p>
-  </main>
+
+  <nav>
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">О нас</a></li>
+      <li><a href="#">Услуги</a></li>
+      <li><a href="#">Каталог</a></li>
+      <li><a href="#">Обучение</a></li>
+      <li><a href="#">Блог</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h2>Интеллектуальная мебельная экосистема</h2>
+    <p>Гармония традиции и технологий</p>
+  </section>
+
   <footer>
-    <p>© BaiMuras, 2025</p>
+    &copy; 2025 BaiMuras. Все права защищены.
   </footer>
+
+  <!-- Future: Telegram, CRM, LMS, Make.com integrations -->
+  <script>
+    function switchLang(lang) {
+      alert('Языковая поддержка скоро будет: выбрано ' + lang.toUpperCase());
+      // future: dynamically swap translations
+    }
+  </script>
+
 </body>
 </html>
