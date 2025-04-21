@@ -110,3 +110,14 @@ footer {
     padding: 2rem 1rem;
   }
 }
+
+.about {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+.about img {
+  margin-top: 1rem;
+  border-radius: 8px;
+}
