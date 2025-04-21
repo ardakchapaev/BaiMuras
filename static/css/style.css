@@ -1,4 +1,27 @@
-body { font-family: sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
-header { background: #222; color: white; padding: 1em; }
-nav a { color: white; margin: 0 10px; text-decoration: none; }
-main { padding: 2em; }
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4ff;
+  color: #333;
+}
+header {
+  background: #002B5B;
+  color: white;
+  padding: 1rem;
+}
+nav a {
+  margin-right: 1rem;
+  color: #cce4ff;
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #002B5B;
+  color: white;
+}
